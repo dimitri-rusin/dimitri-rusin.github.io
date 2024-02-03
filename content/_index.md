@@ -62,27 +62,44 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Research Engineer
+          company: Sorbonne University and French National Centre for Scientiﬁc Research (CNRS)
+          company_url: 'https://www.ins2i.cnrs.fr/fr'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Paris, France
+          date_start: '2023-08-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Analysing existing codebase of benchmarking software
+              * Implementing a database for the software IOHprofiler
+        - title: Software Engineer
+          company: Freelancer
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Ho Chi Minh City, Vietnam
+          date_start: '2022-04-01'
+          date_end: '2023-03-06'
+          description: Developed a Python/cadCAD simulation to model and analyze economic transactions and wealth distribution in a virtual economy.
+        - title: Research Scientist
+          company: German Research Centre for Artiﬁcial Intelligence (DFKI)
+          company_url: 'https://www.dfki.de/en/web/research/research-departments/innovative-factory-systems/'
+          company_logo: org-x
+          location: Kaiserslautern, Germany
+          date_start: '2020-10-01'
+          date_end: '2021-08-06'
+          description: Developed software for managing and visualizing data from factory machine operation.
+        - title: Software Engineer
+          company: emteria
+          company_url: 'https://emteria.com/'
+          company_logo: org-x
+          location: Aachen, Germany
+          date_start: '2020-10-01'
+          date_end: '2021-08-06'
+          description: |2-
+            * Developed software for organizing source code using git.
+            * Developed a website plugin for visually creating remote commands for Android devices.
     design:
       columns: '2'
   - block: accomplishments
@@ -98,32 +115,41 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.topcoder.com/challenges/c2192aae-7fc1-41da-a904-714f8d4d4542
           date_end: ''
           date_start: '2021-01-25'
           description: ''
           icon: coursera
-          organization: Coursera
+          organization: TopCoder
           organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          title: Won $1,000 in a TopCoder competition
           url: ''
         - certificate_url: https://www.edx.org
           date_end: ''
           date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
+          description: Solved 1 out of 4 nation-wide math problems.
           icon: edx
           organization: edX
           organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
+          title: Got a certificate in a nation-wide math competition
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
         - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_end: '2018-12-21'
+          date_start: '2018-07-01'
           description: ''
           icon: datacamp
-          organization: DataCamp
+          organization: Ostrohe
           organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          title: Finished a marathon.
+          url: ''
+        - certificate_url: https://www.datacamp.com
+          date_end: '2020-12-14'
+          date_start: '2020-12-16'
+          description: ''
+          icon: datacamp
+          organization: Rheinland-Pflanz
+          organization_url: https://www.datacamp.com
+          title: Participated in a hackathon.
           url: ''
     design:
       columns: '2'

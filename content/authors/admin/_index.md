@@ -36,6 +36,9 @@ education:
     - course: M.Sc. in Computer Science
       institution: RWTH Aachen University
       year: 2020
+    - course: Parisian Research Master in Computer Science (MPRI)
+      institution: École normale supérieure Paris-Saclay (ENS Cachan)
+      year: 2018
     - course: B.Sc. in Computer Science
       institution: RWTH Aachen University
       year: 2017
@@ -45,7 +48,7 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Python
+      - name: 'Programming: C++, Python, Java, Golang'
         description: ''
         percent: 100
         icon: python
@@ -55,7 +58,22 @@ skills:
         percent: 75
         icon: chart-line
         icon_pack: fas
+      - name: Technical writing
+        description: ''
+        percent: 75
+        icon: chart-line
+        icon_pack: fas
+      - name: Data visualization
+        description: ''
+        percent: 75
+        icon: chart-line
+        icon_pack: fas
       - name: Evolutionary algorithms
+        description: ''
+        percent: 30
+        icon: database
+        icon_pack: fas
+      - name: Databases
         description: ''
         percent: 30
         icon: database
@@ -64,19 +82,49 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Being in nature
         description: ''
-        percent: 60
+        percent: 90
         icon: person-hiking
         icon_pack: fas
-      - name: Cats
+      - name: Japanese culture
+        description: ''
+        percent: 30
+        icon: cat
+        icon_pack: fas
+      - name: Running
+        description: ''
+        percent: 80
+        icon: camera-retro
+        icon_pack: fas
+
+  - name: Languages
+    color: '#aaba02'
+    color_border: '#aaba02'
+    items:
+      - name: English
+        description: ''
+        percent: 100
+        icon: person-hiking
+        icon_pack: fas
+      - name: German
         description: ''
         percent: 100
         icon: cat
         icon_pack: fas
-      - name: Photography
+      - name: Russian
         description: ''
-        percent: 80
+        percent: 100
+        icon: camera-retro
+        icon_pack: fas
+      - name: French
+        description: ''
+        percent: 30
+        icon: camera-retro
+        icon_pack: fas
+      - name: Japanese
+        description: ''
+        percent: 5
         icon: camera-retro
         icon_pack: fas
 
@@ -87,11 +135,17 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:dimitri.rusin@rwth-aachen.de'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/dimitri_rusin
+    link: https://twitter.com/dimitri_rusin/
     label: Follow me on Twitter
+    display:
+      header: true
+  - icon: medium
+    icon_pack: fab
+    link: https://medium.com/@dimitri2431
+    label: Read my stories on Medium
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
@@ -99,10 +153,10 @@ social:
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/dimitri-rusin/
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/dimitri-rusin/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
