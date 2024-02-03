@@ -1,50 +1,44 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Dimitri Rusin
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Dimitri
+last_name: Rusin
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Sorbonne University
+    url: https://www.lip6.fr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include deep reinforcement learning and evolutionary computation and their commercial applications.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Deep reinforcement learning
+  - Mathematical optimization
+  - Machine learning
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: M.Sc. in Computer Science
+      institution: RWTH Aachen University
+      year: 2020
+    - course: B.Sc. in Computer Science
+      institution: RWTH Aachen University
+      year: 2017
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,17 +47,17 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: Reinforcement learning
         description: ''
-        percent: 100
+        percent: 75
         icon: chart-line
         icon_pack: fas
-      - name: SQL
+      - name: Evolutionary algorithms
         description: ''
-        percent: 40
+        percent: 30
         icon: database
         icon_pack: fas
   - name: Hobbies
@@ -96,7 +90,7 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/dimitri_rusin
     label: Follow me on Twitter
     display:
       header: true
@@ -114,11 +108,15 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/Dimitri's Resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a research engineer at Sorbonne University, working on IOHprofiler, a project by [Carola Doerr](http://www-desir.lip6.fr/~doerr/).
+
+I like reinforcement learning and AlphaGo Zero. I went through David Silver's reinforcement learning lectures on YouTube.
+
+
 {style="text-align: justify;"}
